@@ -255,15 +255,12 @@ const onChangeText = (text, index) => {
         <View style={styles.buttonContainer}>
 <TouchableOpacity
   style={
-    (
-     data.some(item => item.text === '')
-      input.some()
-    )
-    ? styles.buttondisable : styles.buttonTextsend
+    data.some(item => item.text === '') || input.some()
+      ? styles.buttondisable
+      : styles.buttonTextsend
   }
-  onPress={resposta == "" ? null : callHandleButtonPress}
+  onPress={resposta === "" ? null : callHandleButtonPress}
 >
-
 
             <Text style={styles.buttonText}>Analisar
               </Text>
