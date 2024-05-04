@@ -5,7 +5,7 @@ const FotoTelaCheia = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Image
-                source={require('./13052024.PNG')}
+                source={require('./03052024.jpg')}
                 style={styles.image}
                 resizeMode="contain"
             />
