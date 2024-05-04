@@ -255,7 +255,7 @@ const onChangeText = (text, index) => {
         <View style={styles.buttonContainer}>
 <TouchableOpacity
   style={
-    data.some(item => item.text === '') || input.some()
+    data.some(item => item.text === '')
       ? styles.buttondisable
       : styles.buttonTextsend
   }
