@@ -256,7 +256,10 @@ const onChangeText = (text, index) => {
 <TouchableOpacity
   style={
     (
-     data.some(item => item.text === '') ? styles.buttondisable : styles.buttonTextsend
+     data.some(item => item.text === '')
+      input.some()
+    )
+    ? styles.buttondisable : styles.buttonTextsend
   }
   onPress={resposta == "" ? null : callHandleButtonPress}
 >
