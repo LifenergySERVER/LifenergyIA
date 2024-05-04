@@ -1,7 +1,7 @@
 const handleButtonPress = async (resposta, setLoading, setResult) => {
   try {
     setLoading(true);
-    const response = await fetch('https://gemini-81xbn3987-lifenergyservers-projects.vercel.app/api/Server', {
+    const response = await fetch('https://gemini-rj8q55qfz-lifenergyservers-projects.vercel.app/api/Server', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
