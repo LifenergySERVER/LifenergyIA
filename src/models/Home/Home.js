@@ -123,7 +123,7 @@ const Home = () => {
 
 useEffect(() => {
     const fetchData = async () => {
-        const response = await fetch("https://mongodb-2cf8qqgdf-lifenergyservers-projects.vercel.app/api/Server");
+        const response = await fetch("https://mongodb-dibrw2qir-lifenergyservers-projects.vercel.app/api/Server");
         const data = await response.json();
         setPergunta(data)
         console.log(data)
@@ -146,7 +146,7 @@ useEffect(() => {
 
   const fetchDataFromDatabase = async () => {
     try {
-      const response = await fetch("https://mongodb-2cf8qqgdf-lifenergyservers-projects.vercel.app/api/Server");
+      const response = await fetch("https://mongodb-dibrw2qir-lifenergyservers-projects.vercel.app/api/Server");
       const data = await response.json();
       setPergunta(data);
     } catch (error) {
